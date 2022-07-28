@@ -1,8 +1,10 @@
 npm init
 npm install express body-parser mongoose node-restful mongoose-paginate lodash express-query-int pm2 --save
 npm install nodemon --save-dev
+\AppData\Roaming\npm-cache\_logs\2022-07-26T19_08_44_843Z-debug.log
 
 
+    "mongoose": "^5.11.18",
 
 
 

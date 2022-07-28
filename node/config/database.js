@@ -1,3 +1,6 @@
+const url = process.env.MONGODB_URI ? process.env.MONGODB_URI : 'mongodb://localhost/db_finance'
+module.exports = mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true})
+
 const mongoose = require('mongoose')
 module.exports = mongoose.connect('mongodb://localhost/db_finance')
 
